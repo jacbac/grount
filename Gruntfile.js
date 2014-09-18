@@ -182,6 +182,7 @@ module.exports = function (grunt) {
     watch: {
       src: {
         files: [
+          'Gruntfile.js',
           'src/js/*.js',
           'src/less/*.less',
           'src/less/partials/*.less',
